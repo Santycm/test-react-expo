@@ -5,13 +5,12 @@ import { useNavigation } from '@react-navigation/native'
 export const HomeScreen = () => {
   const navigation = useNavigation();
 
-
   return (
     <View style={{ backgroundColor: "black", flex: 1, height: 100 }}>
       <Text style={{ color: "black" }}>Home Screeeeeen</Text>
       <Pressable
         style={{ backgroundColor: "purple" }}
-        onPress={() => navigation.navigate("Settings")}
+        onPress={() => navigation.navigate("Stack")}
       >
         <Text style={{ fontSize: 15, textAlign: "center", color: "white" }}>
           Go to Stack Screen

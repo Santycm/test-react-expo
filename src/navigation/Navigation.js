@@ -43,7 +43,7 @@ function MyTabs() {
 export default function Navigation() {
   return (
     <NavigationContainer>
-      <MyDrawer />
+      <MyTabs />
     </NavigationContainer>
   );
 }
